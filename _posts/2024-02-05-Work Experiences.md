@@ -1,25 +1,49 @@
 ---
-title:  "Work Experiences"
+title: "The Effect of Accented Speech on Moral Decision Making"
 layout: post
+
 ---
 
-## Post-Doctoral Researcher | Bilingualism, Language, and Brain Lab, University of Florida        2024 – now
-- Conducted a research project evaluating the performance of state-of-the-art ASR models (e.g., *Whisper*, *Wav2Vec*) on elderly speech, identifying key limitations in handling unique acoustic features.
-- Analyzed word error rates (WERs) by comparing ASR-generated texts with human annotations and pinpointed critical areas where large ASRs underperformed.
-- Developed comprehensive guidelines to improve human annotation accuracy, driving advancements toward more reliable ASR systems for elderly speech.
-- Mentored and trained 10+ undergraduate students, fostering research skills, academic growth, and contributions to cutting-edge ASR projects.
+![Alt text](github portfolio/moral dilemma.png)
+**Background:**
+  Previous studies have shown that bilinguals activate both of their languages in a non-selective manner. This co-activation has been demonstrated even while bilinguals process words only in the second language (Thierry & Wu, 2007). It is debatable whether this co-activation can extend to the sub-lexical level (Chen & Perfetti, 2021). 
 
-## Lead Researcher | Bilingualism, Language, and Brain Lab, University of Florida        2019 - 2024
-- Led and managed 3 complex research projects, overseeing all stages from design to execution.
-- Designed linguistic stimuli by extracting over 1,000 items from a multimillion-word corpus using Python (*Unicode* and *Regular Expressions*).
-- Processed and matched linguistic items based on semantic similarity using *FastText* and *Word2Vec* embeddings, with results evaluated against human performance benchmarks.
-- Conducted data collection for 200+ participants using online surveys, cognitive tests, and neuroimaging methods, ensuring high data quality across all stages.
-- Performed advanced statistical analyses using regression models and mixed-effects models in R to investigate how specific linguistic features affect bilingual language processing.
-- Compiled and presented findings through detailed research reports featuring complex data visualizations (using *tidyverse* and *ggplot* in R) and summaries in PowerPoint.
-- Presented report to a panel of 4 experts (including one computational linguist and one native Chinese speaker) and fielded questions from technical and non-technical audiences during a 2-hour defense, resulting in a doctorate degree and publication of a dissertation. 
+**Basic Chinese:**
+| 氵water radical  | +S (meaning related)      | -S (meaning unrelated) |
+|------------------|------------------|-----------------|
+| **+F (form related)**   | 湖 'lake' | 法 'law'   |
+| **-F (form unrelated)**  | 雨 'rain'| 手 'hand'  |
 
-## Core Researcher| Language Documentation team, Australian National University        2016 - 2018 
-- Conducted structured and semi-structured interviews with 1 or 2 native Wiru speakers weekly. 
-- Adapted interview questions based on participant responses to explore emerging themes.
-- Recorded, transcribed, and analyzed interview data of 2000+ words, 500+ sentences, 10+ stories.
-- Identified patterns in language use and cultural narratives.
+**Goals:**
+- Do Chinese-English bilinguals activate their native language (Chinese) while their input is only in the L2 (English)?
+- How deep is this activation? Does the activation extend to the sub-lexical semantic radical level?
+  
+**Methods:**
+  All the tasks are created online using Gorilla Experiment builder. A total of 100 native English speakers were recruited through Prolific for participation. 
+
+  - **Moral Decision-making Task** In this task, participants answer questions about moral dilemmas by choosing between two options. One example is the trolley problem: If a train is about to hit five people, should you push one person onto the tracks to stop the train and save them? Participants must choose between two responses:
+
+    a) Push the person to stop the train and save five lives.
+    b) Do nothing and let the five people die.
+
+  - **Language Attitude Task** In this task, participants rate the accent, comprehensibility, acceptability, likability and other general questions concerning their attitude towards the speaker on a Likert scale from 1-7. Example questions are:
+    
+    How much foreign accent do you hear from this speaker?
+    How well do you understand this person’s way of speaking?
+    How comfortable are you with the person’s way of speaking?
+    How pleasant is this person’s way of speaking?
+    And more...
+
+**Analyses:**
+
+  - **Moral Decision-making Task** A logistic mixed-effects model was used with participants' decisions as the dependent variable. Fixed effects included age range, gender, education level, and accented group. Random effects were specified for subjects and items.
+
+    <span style="color:blue">R script: model1 <- glmer( Decision ~ age_category * gender * education * Group + (1|subjects) + (1|items), data=df_long, family = binomial, control=glmerControl(optimizer="bobyqa"))</span>
+
+  - **Language Attitude Task** Multiple two sample t-test comparing participants' attitude (e.g, How likely do you think this speaker is a native speaker of English?) towards native vs accanted speakers.
+
+    <span style="color:blue">R script: LA_accent<-LA_relavent_df%>%filter(Question == "How likely do you think this speaker is a native speaker of English?") t.test(Response~Language, LA_accent)</span>
+
+**Results & Conclusion:**
+  - Participants clearly perceive an accent in non-native English speakers compared to native speakers. However, they rate both groups as equally understandable, acceptable, and likable.
+  - The presence of an accent does not significantly influence their moral judgments.
