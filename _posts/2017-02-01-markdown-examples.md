@@ -1,85 +1,25 @@
 ---
-title:  "Markdown examples"
+title:  "Work Experiences"
 layout: post
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Post-Doctoral Researcher | Bilingualism, Language, and Brain Lab, University of Florida        2024 – now
+- Conducted a research project evaluating the performance of state-of-the-art ASR models (e.g., *Whisper*, *Wav2Vec*) on elderly speech, identifying key limitations in handling unique acoustic features.
+- Analyzed word error rates (WERs) by comparing ASR-generated texts with human annotations and pinpointed critical areas where large ASRs underperformed.
+- Developed comprehensive guidelines to improve human annotation accuracy, driving advancements toward more reliable ASR systems for elderly speech.
+- Mentored and trained 10+ undergraduate students, fostering research skills, academic growth, and contributions to cutting-edge ASR projects.
 
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit.
+## Lead Researcher | Bilingualism, Language, and Brain Lab, University of Florida        2019 - 2024
+- Led and managed 3 complex research projects, overseeing all stages from design to execution.
+- Designed linguistic stimuli by extracting over 1,000 items from a multimillion-word corpus using Python (*Unicode* and *Regular Expressions*).
+- Processed and matched linguistic items based on semantic similarity using *FastText* and *Word2Vec* embeddings, with results evaluated against human performance benchmarks.
+- Conducted data collection for 200+ participants using online surveys, cognitive tests, and neuroimaging methods, ensuring high data quality across all stages.
+- Performed advanced statistical analyses using regression models and mixed-effects models in R to investigate how specific linguistic features affect bilingual language processing.
+- Compiled and presented findings through detailed research reports featuring complex data visualizations (using *tidyverse* and *ggplot* in R) and summaries in PowerPoint.
+- Presented report to a panel of 4 experts (including one computational linguist and one native Chinese speaker) and fielded questions from technical and non-technical audiences during a 2-hour defense, resulting in a doctorate degree and publication of a dissertation. 
 
-
-## Heading Two (h2)
-
-### Heading Three (h3)
-
-#### Heading Four (h4)
-
-##### Heading Five (h5)
-
-###### Heading Six (h6)
-
-
-## Blockquotes
-
-### Single line
-
-> My mom always said life was like a box of chocolates. You never know what you're gonna get.
-
-### Multiline
-
-> What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
->
-> You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
->
-> – _Hal Incandenza_
-
-## Horizontal Rule
-
----
-
-## Table
-
-| Title 1          | Title 2          | Title 3         | Title 4         |
-|------------------|------------------|-----------------|-----------------|
-| First entry      | Second entry     | Third entry     | Fourth entry    |
-| Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
-| Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
-| Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
-
-## Code
-
-Source code can be included by fencing the code with three backticks. Syntax highlighting works automatically when specifying the language after the backticks.
-
-````
-```javascript
-function foo () {
-    return "bar";
-}
-```
-````
-
-This would be rendered as:
-
-```javascript
-function foo () {
-    return "bar";
-}
-```
-
-## Lists
-
-### Unordered
-
-* First item
-* Second item
-* Third item
-    * First nested item
-    * Second nested item
-
-### Ordered
-
-1. First item
-2. Second item
-3. Third item
-    1. First nested item
-    2. Second nested item
+## Core Researcher| Language Documentation team, Australian National University        2016 - 2018 
+- Conducted structured and semi-structured interviews with 1 or 2 native Wiru speakers weekly. 
+- Adapted interview questions based on participant responses to explore emerging themes.
+- Recorded, transcribed, and analyzed interview data of 2000+ words, 500+ sentences, 10+ stories.
+- Identified patterns in language use and cultural narratives.
