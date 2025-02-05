@@ -1,9 +1,9 @@
 ---
 title: "Hello! I'm Yihan Chen."
 layout: post
-logo: "https://github.com/Yihan-Chen-Linguistics/portfolio/github portfolio/profile pic.jpeg"
+logo: "https://github.com/Yihan-Chen-Linguisticsportfolio/_images/profile pic.jpeg"
 ---
-![Yihan Chen](https://github.com/Yihan-Chen-Linguistics/portfolio/github portfolio/profile pic.jpeg)
+![Yihan Chen](https://github.com/Yihan-Chen-Linguisticsportfolio/_images/profile pic.jpeg)
 I'm a passionate social science researcher with a solid background in survey design, data analysis, and human factor research. I'm specializing in linguistics, behavior and cognitive science. I'm proficient in Python, R, and statistical modeling, with expertise in experimental design, survey methodology and subject matter. I have successfully led end-to-end research projects investigating the use of language on attitudes and decision making, enhancing my ability to deliver precise and impactful research outcomes. Detail-oriented with strong problem-solving and organizational skills, and exceptional verbal and written communication skills for presenting research outcomes to a wide range of audiences.
 
 - 7+ years of experience in experimental (behavioral and neurocognitive) research, social science qualitative and quantitative methodologies.
