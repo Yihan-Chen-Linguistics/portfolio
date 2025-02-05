@@ -1,14 +1,15 @@
 ---
-title: "The Effect of Accented Speech on Moral Decision Making"
+title: "SUblexical processing of Chinese-English bilinguals"
 layout: post
 
 ---
 
-![Alt text](github portfolio/moral dilemma.png)
+![Alt text](github portfolio/bilingual.png)
 **Background:**
   Previous studies have shown that bilinguals activate both of their languages in a non-selective manner. This co-activation has been demonstrated even while bilinguals process words only in the second language (Thierry & Wu, 2007). It is debatable whether this co-activation can extend to the sub-lexical level (Chen & Perfetti, 2021). 
 
 **Basic Chinese:**
+![Alt text](github portfolio/Chinese.png)
 | 氵water radical  | +S (meaning related)      | -S (meaning unrelated) |
 |------------------|------------------|-----------------|
 | **+F (form related)**   | 湖 'lake' | 法 'law'   |
@@ -20,6 +21,8 @@ layout: post
   
 **Methods:**
   All the tasks are created online using Gorilla Experiment builder. A total of 100 native English speakers were recruited through Prolific for participation. 
+![Alt text](github portfolio/EEG.png)
+![Alt text](github portfolio/stimuli.png)
 
   - **Moral Decision-making Task** In this task, participants answer questions about moral dilemmas by choosing between two options. One example is the trolley problem: If a train is about to hit five people, should you push one person onto the tracks to stop the train and save them? Participants must choose between two responses:
 
