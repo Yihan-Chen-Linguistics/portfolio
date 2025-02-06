@@ -4,7 +4,7 @@ layout: post
 
 ---
 
-<img src="github portfolio/bilingual.png" width="300">
+<img src="github portfolio/bilingual.png" width="200">
 
 **Background:**
   Previous studies have shown that bilinguals activate both of their languages in a non-selective manner. This co-activation has been demonstrated even while bilinguals process words only in the second language (Thierry & Wu, 2007). It is debatable whether this co-activation can extend to the sub-lexical level (Chen & Perfetti, 2021). 
@@ -12,7 +12,7 @@ layout: post
 **Basic Chinese:**
 
 
-<img src="github portfolio/Chinese.png" width="300">
+<img src="github portfolio/Chinese.png" width="150">
 
 | 氵water radical  | +S (meaning related)      | -S (meaning unrelated) |
 |------------------|------------------|-----------------|
@@ -26,8 +26,8 @@ layout: post
 **Methods:**
   All the tasks are created online using Gorilla Experiment builder. A total of 100 native English speakers were recruited through Prolific for participation. 
 
-<img src="github portfolio/EEG.png" width="300">
-<img src="github portfolio/stimuli.png" width="300">
+<img src="github portfolio/EEG.png" width="150">
+<img src="github portfolio/stimuli.png" width="150">
 
 
   - **Moral Decision-making Task** In this task, participants answer questions about moral dilemmas by choosing between two options. One example is the trolley problem: If a train is about to hit five people, should you push one person onto the tracks to stop the train and save them? Participants must choose between two responses:
