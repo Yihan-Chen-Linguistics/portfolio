@@ -3,7 +3,7 @@ title: "The Hidden Impact of Native Language on Bilingual Word Processing"
 layout: post
 ---
 
-<img src="/assets/bilingual.png" width="200">
+<img src="/assets/bilingual.png" width="300">
 
 **Background:**
   Previous studies have shown that bilinguals activate both of their languages in a non-selective manner. This co-activation has been demonstrated even while bilinguals process words only in the second language (Thierry & Wu, 2007). However, it remains unclear whether this activation also applies to smaller components of words, such as parts of characters/words.(Chen & Perfetti, 2021). 
@@ -14,7 +14,7 @@ Chinese characters are formed by joining together a meaning radical and a sound 
 
 Although semantic radicals are a very prominent feature of the Chinese writing system, the meaning of the radical may not always match the meaning of the whole word. For example, 法 ‘law’ has nothing to do with water, but it still contains the radi-cal 氵‘water’. This difference provides a good opportunity to study sub-lexical processing in written language.
 
-<img src="/assets/Chinese.png" width="200">
+<img src="/assets/Chinese.png" width="300">
 
 | 氵water radical  | +S (meaning related)      | -S (meaning unrelated) |
 |------------------|------------------|-----------------|
@@ -29,8 +29,8 @@ Although semantic radicals are a very prominent feature of the Chinese writing s
   
   Thirty-two Chinese-English bilinguals and thirty-one English monolinguals completed an EEG-based **semantic relatedness task**, during which they judged whether pairs of English words were related in meaning or not (±S). Unbeknownst to the participants, the form (±F) of the Chinese trans-lations in half of the pairs shared a sub-lexical semantic radical. This leads to four conditions: +S+F, +S-F, -S+F, and -S-F. With this design and by comparing to English monolinguals, it allows us to examine if bilinguals’ native language is activated to the sub-lexical level when only exposed to L2. 
 
-<img src="/assets/EEG.png" width="200">
-<img src="/assets/stimuli.png" width="200">
+<img src="/assets/EEG.png" width="300">
+<img src="/assets/stimuli.png" width="300">
 
 
 **Analyses:**
