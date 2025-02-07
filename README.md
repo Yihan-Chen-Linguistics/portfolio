@@ -1,11 +1,14 @@
 ---
 title: "Hello! I'm Yihan Chen."
 layout: post
-logo: "profile.jpeg"
+logo: "/assets/profile.png"
 ---
-
-<img src="/assets/profile.png" width="300">
-I'm a passionate social science researcher with a solid background in survey design, data analysis, and human factor research. I'm specializing in linguistics, behavior and cognitive science. I'm proficient in Python, R, and statistical modeling, with expertise in experimental design, survey methodology and subject matter. I have successfully led end-to-end research projects investigating the use of language on attitudes and decision making, enhancing my ability to deliver precise and impactful research outcomes. Detail-oriented with strong problem-solving and organizational skills, and exceptional verbal and written communication skills for presenting research outcomes to a wide range of audiences.
+<div style="display: flex; align-items: center;">
+  <img src="/assets/profile.png" width="300" style="margin-right: 20px;">
+  <div>
+    <p>I'm a passionate social science researcher with a solid background in survey design, data analysis, and human factor research. I specialize in linguistics, behavior, and cognitive science. I'm proficient in Python, R, and statistical modeling, with expertise in experimental design, survey methodology, and subject matter. I have successfully led end-to-end research projects investigating the use of language on attitudes and decision-making, enhancing my ability to deliver precise and impactful research outcomes. Detail-oriented with strong problem-solving and organizational skills, and exceptional verbal and written communication skills for presenting research outcomes to a wide range of audiences.</p>
+ </div>
+</div>
 
 - 7+ years of experience in experimental (behavioral and neurocognitive) research, social science qualitative and quantitative methodologies.
 - 4+ years of experience in statistical analysis and data visualization using R and Python.
