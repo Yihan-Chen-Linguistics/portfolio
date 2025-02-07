@@ -4,7 +4,8 @@ layout: post
 
 ---
 
-![Alt text](github portfolio/moral dilemma.png)
+<img src="/assets/moral dilemma.png">
+
 **Background:**
   Would you sacrifice one life to save several others? These tough moral choices come up in everyday life and work, shaping how we make ethical decisions. Research shows that language plays a surprising role in these dilemmas. Studies have found that when people make moral decisions in a foreign language, they are more likely to choose the logical, numbers-based option—such as sacrificing one person to save five. This pattern, called the **Foreign Language Effect**, suggests that using a second language may reduce emotional influence and change how we think.
 But what happens when we hear these dilemmas instead of reading them? And does the speaker’s accent make a difference? With globalization, many people regularly interact with non-native speakers. Studies have shown that people often judge foreign-accented speakers unfairly, seeing them as less intelligent or trustworthy. Therefore, this study will explore how accents influence moral decision-making in spoken language.
