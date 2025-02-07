@@ -1,16 +1,18 @@
 ---
-title: "SUblexical processing of Chinese-English bilinguals"
+title: "The Hidden Impact of Native Language on Bilingual Word Processing"
 layout: post
-
 ---
 
 <img src="github portfolio/bilingual.png" width="200">
 
 **Background:**
-  Previous studies have shown that bilinguals activate both of their languages in a non-selective manner. This co-activation has been demonstrated even while bilinguals process words only in the second language (Thierry & Wu, 2007). It is debatable whether this co-activation can extend to the sub-lexical level (Chen & Perfetti, 2021). 
+  Previous studies have shown that bilinguals activate both of their languages in a non-selective manner. This co-activation has been demonstrated even while bilinguals process words only in the second language (Thierry & Wu, 2007). However, it remains unclear whether this activation also applies to smaller components of words, such as parts of characters/words.(Chen & Perfetti, 2021). 
 
 **Basic Chinese:**
 
+Chinese characters are formed by joining together a meaning radical and a sound element. For instance, the word 湖 /hú/ ‘lake’ is composed of the meaning radical 氵that means ‘water’ and a sound element 胡 /hú/. Critically, the meaning radical 氵‘water’ can be found in other water-related words, such as 河 ‘river’, 海 ‘sea’, 汤 ‘soup’, etc. 
+
+Although semantic radicals are a very prominent feature of the Chinese writing system, the meaning of the radical may not always match the meaning of the whole word. For example, 法 ‘law’ has nothing to do with water, but it still contains the radi-cal 氵‘water’. This difference provides a good opportunity to study sub-lexical processing in written language.
 
 <img src="github portfolio/Chinese.png" width="150">
 
@@ -24,35 +26,24 @@ layout: post
 - How deep is this activation? Does the activation extend to the sub-lexical semantic radical level?
   
 **Methods:**
-  All the tasks are created online using Gorilla Experiment builder. A total of 100 native English speakers were recruited through Prolific for participation. 
+  
+  Thirty-two Chinese-English bilinguals and thirty-one English monolinguals completed an EEG-based **semantic relatedness task**, during which they judged whether pairs of English words were related in meaning or not (±S). Unbeknownst to the participants, the form (±F) of the Chinese trans-lations in half of the pairs shared a sub-lexical semantic radical. This leads to four conditions: +S+F, +S-F, -S+F, and -S-F. With this design and by comparing to English monolinguals, it allows us to examine if bilinguals’ native language is activated to the sub-lexical level when only exposed to L2. 
+
 
 <img src="github portfolio/EEG.png" width="150">
 <img src="github portfolio/stimuli.png" width="150">
 
 
-  - **Moral Decision-making Task** In this task, participants answer questions about moral dilemmas by choosing between two options. One example is the trolley problem: If a train is about to hit five people, should you push one person onto the tracks to stop the train and save them? Participants must choose between two responses:
-
-    a) Push the person to stop the train and save five lives.
-    b) Do nothing and let the five people die.
-
-  - **Language Attitude Task** In this task, participants rate the accent, comprehensibility, acceptability, likability and other general questions concerning their attitude towards the speaker on a Likert scale from 1-7. Example questions are:
-    
-    How much foreign accent do you hear from this speaker?
-    How well do you understand this person’s way of speaking?
-    How comfortable are you with the person’s way of speaking?
-    How pleasant is this person’s way of speaking?
-    And more...
-
 **Analyses:**
 
-  - **Moral Decision-making Task** A logistic mixed-effects model was used with participants' decisions as the dependent variable. Fixed effects included age range, gender, education level, and accented group. Random effects were specified for subjects and items.
+  **Semantic Relatedness Task** A liner mixed-effects model was used with participants' EEG ampilitudes as the dependent variable. Fixed effects included semantic relatedness, form relatedness, brain regions, language groups and their interactions. Random effects were specified for subjects and items.
 
-    <span style="color:blue">R script: model1 <- glmer( Decision ~ age_category * gender * education * Group + (1|subjects) + (1|items), data=df_long, family = binomial, control=glmerControl(optimizer="bobyqa"))</span>
+    <span style="color:blue">R script: model1 <- lmer( EEG ampilitudes ~ semantic relatedness * Form relatedness * language groups * brain regions + (1|subjects) + (1|items),data=raw_data,control=lmerControl(optimizer="bobyqa")))</span>
 
-  - **Language Attitude Task** Multiple two sample t-test comparing participants' attitude (e.g, How likely do you think this speaker is a native speaker of English?) towards native vs accanted speakers.
 
-    <span style="color:blue">R script: LA_accent<-LA_relavent_df%>%filter(Question == "How likely do you think this speaker is a native speaker of English?") t.test(Response~Language, LA_accent)</span>
 
 **Results & Conclusion:**
-  - Participants clearly perceive an accent in non-native English speakers compared to native speakers. However, they rate both groups as equally understandable, acceptable, and likable.
-  - The presence of an accent does not significantly influence their moral judgments.
+- Both groups could recognize whether words were related in meaning, but English monolinguals showed a stronger distinction in meaning between related and unrelated English words. Chinese-English bilinguals, however, were still sensitive to subtle form differences in Chinese characters even when only English words were visually presented.
+
+- These results suggest that highly proficient bilinguals naturally activate their native language even when using their second language. Notably, this activation happens not just at the word level but also with smaller components of words that carry meaning.
+
