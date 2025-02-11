@@ -3,7 +3,9 @@ title: "The Effect of Accented Speech on Moral Decision Making"
 layout: post
 
 ---
-![Trolley Problem](/assets/moral dilemma.png))
+
+<img src="assets/dilemma.png" width="300">
+
 
 **Background:**
   Would you sacrifice one life to save several others? These tough moral choices come up in everyday life and work, shaping how we make ethical decisions. Research shows that language plays a surprising role in these dilemmas. Studies have found that when people make moral decisions in a foreign language, they are more likely to choose the logical, numbers-based option—such as sacrificing one person to save five. This pattern, called the **Foreign Language Effect**, suggests that using a second language may reduce emotional influence and change how we think.
