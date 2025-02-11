@@ -38,7 +38,7 @@ Although semantic radicals are a very prominent feature of the Chinese writing s
 
   **Semantic Relatedness Task** A liner mixed-effects model was used with participants' EEG ampilitudes as the dependent variable. Fixed effects included semantic relatedness, form relatedness, brain regions, language groups and their interactions. Random effects were specified for subjects and items.
 
-    <span style="color:blue">R script: model1 <- lmer( EEG ampilitudes ~ semantic relatedness * Form relatedness * language groups * brain regions + (1|subjects) + (1|items),data=raw_data,control=lmerControl(optimizer="bobyqa")))</span>
+    R script: model1 <- lmer( EEG ampilitudes ~ semantic relatedness * Form relatedness * language groups * brain regions + (1|subjects) + (1|items),data=raw_data,control=lmerControl(optimizer="bobyqa")))
 
 
 
