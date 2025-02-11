@@ -4,7 +4,7 @@ layout: post
 
 ---
 
-<img src="assets/dilemma.png" width="300">
+<img src="assets/moral dilemma.png" width="300">
 
 
 **Background:**
