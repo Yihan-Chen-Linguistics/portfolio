@@ -4,7 +4,7 @@ layout: post
 logo: "assets/profile.png"
 ---
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
-  <img src="/assets/profile.png" width="300" style="margin-right: 20px; max-width: 100%;">
+  <img src="../assets/profile.png" width="300" style="margin-right: 20px; max-width: 100%;">
   <div style="max-width: 600px;">
     <p>
       I'm a passionate social science researcher with a solid background in survey design, data analysis, and human factors research. 
