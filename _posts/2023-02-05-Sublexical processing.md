@@ -3,7 +3,8 @@ title: "The Hidden Impact of Native Language on Bilingual Word Processing"
 layout: post
 ---
 
-<img src="/assets/bilingual.png" width="300">
+<img src="../assets/bilingual.png" width="300">
+![alt text](../assets/bilingual.png)
 
 **Background:**
   Previous studies have shown that bilinguals activate both of their languages in a non-selective manner. This co-activation has been demonstrated even while bilinguals process words only in the second language (Thierry & Wu, 2007). However, it remains unclear whether this activation also applies to smaller components of words, such as parts of characters/words.(Chen & Perfetti, 2021). 
